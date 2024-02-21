@@ -1,11 +1,13 @@
 const possibleChoices = ["rock", "paper", "scissors"];
 
+
 function getComputerChoice() {
 
     const index = Math.floor(Math.random() * possibleChoices.length);
 
     return possibleChoices[index];
 }
+
 
 function getPlayerChoice() {
 
@@ -18,7 +20,7 @@ function getPlayerChoice() {
         return getPlayerChoice();
     }
 }
-//console.log(getComputerChoice()); 
+
 
 function playRound(playerSelection, computerSelection) {
 
@@ -46,7 +48,9 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
+
 function playGame() {
+    
     let playerPoints = 0;
     let computerPoints = 0;
 
