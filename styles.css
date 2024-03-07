@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    font-family: "Orbitron", "Ubuntu", Roboto, sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(32,32,32);
+    padding: 20px;
+    color: #cc99ff;
+    letter-spacing: 0.4vw;
+}
+
+.main-title {
+    font-size: 5vh;
+    margin-top: 0;
+    letter-spacing: 0.8vw;
+    text-shadow: 0 0 30px rgba(204, 153, 255, 0.5);
+    border-bottom: 0.001vw solid rgba(252, 252, 252, 0.05);
+}
+
+.round-message {
+    font-size: 1.17em;
+    margin-block-end: 1em;
+    text-shadow: 0 0 20px rgba(204, 153, 255, 0.5);
+    font-weight: 600;
+    border-bottom: 0.001vw solid rgba(252, 252, 252, 0.05);
+}
+
+.message {
+    font-size: 1.5em;
+    text-shadow: 0 0 20px rgba(204, 153, 255, 0.5);
+    font-weight: 600;
+}
+
+.result {
+    display: flex;
+    gap: 13vw;
+    margin-bottom: 4vh;
+}
+
+.choices {
+    display: flex;
+    gap: 7vh;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.choice {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 1;
+}
+
+.computers-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    flex-shrink: 1;
+    border-left: 0.001vw solid rgba(252, 252, 252, 0.05);
+    padding: 0 0 0 2em;
+}
+
+.players-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    flex-shrink: 1;
+    border-right: 0.001vw solid rgba(252, 252, 252, 0.05);
+    padding: 0 2em 0 0;
+}
+
+.points-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+    border: 0.001vw solid rgba(252, 252, 252, 0.05);
+}
+
+.points-container img {
+    width: 10vh;
+}
+
+.points-container h3 {
+    font-size: 7vh;
+    margin: 0;
+    text-shadow: 0 0 20px rgba(204, 153, 255, 0.5);;
+}
+
+.new-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.new-game-container button {
+    padding: 1rem 1rem;
+    letter-spacing: 0.1vw;
+    font-family: inherit;
+    background-color: transparent;
+    color: #cc99ff;
+    border-color: #cc99ff;
+    cursor: pointer;
+}
